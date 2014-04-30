@@ -1,0 +1,26 @@
+---
+layout: default
+title: IMOD Blog
+---
+
+
+<div class="ui stacked feed segment container">
+    <h2 class="ui header">
+        Blog Posts
+    </h2>
+    {% for post in site.posts %}
+        <a class="event" href="{{ post.url }}">
+            <div class="label">
+                <i class="large circular black user icon"></i>
+            </div>
+            <div class="content">
+                <div class="date">
+                        {{ post.date | date_to_string }}
+                </div>
+                <div class="summary">
+                    {{ post.title }}
+                </div>
+            </div>
+        </a>
+    {% endfor %}
+</div>

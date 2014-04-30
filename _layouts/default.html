@@ -6,39 +6,33 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/semantic.min.css">
+        <link rel="stylesheet" href="/css/themse.css">
 
     </head>
     <body>
-
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
+        <section class="secondary pointing ui menu">
+            <div class="container">
+                <a class="left header item ui small image" href="/">
+                    <img src="/images/imod/colorsignature_lg.png" alt="{{ site.name }}">
+                </a>
+                <div class="left menu">
+                    <a class="item" href="/blog">
+                        blog
+                    </a>
+                    <a class="item" href="/team">
+                        team
+                    </a>
+                    <a class="item" href="https://github.com/IMOD-ASU">
+                        <i class="github icon"></i>
+                        github
+                    </a>
+                </div>
             </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+
+        </section>
+
+        {{ content }}
 
     </body>
 </html>
