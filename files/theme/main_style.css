@@ -1,4 +1,14 @@
 /* IMOD custom style */
+.magic-floating-image {
+	position: fixed;
+	bottom: 20%;
+	right: 20%;
+}
+
+.paragraph {
+	text-shadow: 1px 1px 1px white;
+}
+
 .imod-menu * {
 	display: inline-block;
 	position: relative;
@@ -13,7 +23,7 @@
 }
 
 body {
-	background-color: #2F0D78 !important; /*purple*/
+	background-color: #1A164B !important; /*purple*/
 }
 
 #container {
