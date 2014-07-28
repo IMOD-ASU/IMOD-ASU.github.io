@@ -1,4 +1,12 @@
 /* IMOD custom style */
+.wslide-main {
+	margin: -50px 0;
+}
+
+.wslide-slide {
+	margin-top: -20px;
+}
+
 .imod-footer-nsf-logo {
 	margin: 0 10px;
 }
