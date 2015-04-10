@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Team - IMODS</title>
+	<head>
+		<title>Team - IMODS</title>
+
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-<link rel="stylesheet" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" type="text/css" /><link rel='stylesheet' type='text/css' href='http://cdn1.editmysite.com/editor/libraries/fancybox/fancybox.css?1234' />
-<link rel='stylesheet' type='text/css' href='files/main_style.css?1406562541' title='wsite-theme-css' />
+		
+		<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
+<link rel="stylesheet" type="text/css" href="http://cdn1.editmysite.com/editor/libraries/fancybox/fancybox.css?1234" />
+<link rel="stylesheet" type="text/css" href="files/main_style.css?1428688440" title="wsite-theme-css" />
+
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
@@ -37,45 +41,99 @@
 .wsite-headline {font-family:"Ubuntu" !important;}
 .wsite-headline-paragraph {font-family:"Ubuntu" !important;}
 .wsite-button-inner {font-family:"Ubuntu" !important;}
-.wsite-not-footer blockquote, #wsite-com-product-tab blockquote {font-family:"Ubuntu" !important;}
+.wsite-not-footer blockquote {font-family:"Ubuntu" !important;}
 .wsite-footer blockquote {}
 .blog-header h2 a {}
 #wsite-content h2.wsite-product-title {}
 .wsite-product .wsite-product-price a {font-family:"Ubuntu" !important;}
 </style>
 
-<script><!--
+
+		<script><!--
 var STATIC_BASE = '//cdn1.editmysite.com/';
 var STYLE_PREFIX = 'wsite';
 //-->
 </script>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
-<script src='http://cdn2.editmysite.com/js/site/main.js?buildTime=1234'></script>
-<script>_W.relinquish && _W.relinquish()</script>
-<script type='text/javascript'><!--
-var IS_ARCHIVE=1;
-(function(jQuery){
-function initFlyouts(){initPublishedFlyoutMenus([{"id":"980282417777201365","title":"Home","url":"index.html","target":""},{"id":"744542051446997102","title":"Team","url":"team.html","target":""},{"id":"368921713355802767","title":"Project Overview","url":"project-overview.html","target":""},{"id":"740407115660312461","title":"Theoretical Framework","url":"theoretical-framework.html","target":""},{"id":"105768449951290212","title":"Publications","url":"publications.html","target":""},{"id":"420491920243632922","title":"Demo","url":"demo.html","target":""}],"744542051446997102","<li><a href='#'>{{title}}<\/a><\/li>",'active',false)}
-if (jQuery) {
-if (jQuery.browser.msie && !window.flyoutMenusRefreshable) window.onload = initFlyouts;
-else jQuery(initFlyouts);
-}else{
-if (Prototype.Browser.IE) window.onload = initFlyouts;
-else document.observe('dom:loaded', initFlyouts);
-}
-})(window._W && _W.jQuery)
+
+<script src="http://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
+<script type="text/javascript"><!--
+	var IS_ARCHIVE = 1;
+	
+	(function(jQuery){
+		function initFlyouts(){
+			initPublishedFlyoutMenus(
+				[{"id":"980282417777201365","title":"Home","url":"index.html","target":""},{"id":"744542051446997102","title":"Team","url":"team.html","target":""},{"id":"368921713355802767","title":"Project Overview","url":"project-overview.html","target":""},{"id":"740407115660312461","title":"Theoretical Framework","url":"theoretical-framework.html","target":""},{"id":"105768449951290212","title":"Publications","url":"publications.html","target":""},{"id":"420491920243632922","title":"Demo","url":"demo.html","target":""}],
+				"744542051446997102",
+				"<li class=\"wsite-menu-item-wrap\"><a href=\"#\" data-membership-required=\"\" class=\"wsite-menu-item\">{{title}}<\/a><\/li>",
+				'active',
+				false,
+				{"site\/menu\/submenu-main":"<div class=\"wsite-menu-wrap\" style=\"display:none\">{{! Designer note: \"wsite-menu-wrap\" required on submenu wrapper }}\n\t<ul class=\"wsite-menu\">{{! Designer note: \"wsite-menu\" required on submenu element }}\n\t\t{{#children}}{{> site\/menu\/submenu-item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","site\/menu\/submenu-item":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-subitem-wrap{{#current_page}} wsite-nav-current{{\/current_page}}\">{{! Designer note: id required & \"wsite-menu-subitem-wrap\" required on the item wrap }}\n\t<a href=\"{{itemlink}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-subitem\">{{! Designer note: \"wsite-menu-subitem\" required on the item link }}\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{itemtitle}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n","site\/menu\/main":"<ul class=\"wsite-menu-default\">{{> site\/menu\/main-without-wrap}}<\/ul>{{! Designer note: \"wsite-menu-default\" required on menu element }}\n","site\/menu\/main-without-wrap":"{{#links}}{{!\n}}{{#current_page}}{{> site\/menu\/item-current}}{{\/current_page}}{{!\n}}{{^current_page}}{{> site\/menu\/item}}{{\/current_page}}{{!\n}}{{\/links}}\n","site\/menu\/item-current":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">{{! Designer note: id required & \"wsite-menu-item-wrap\" required on the item wrapper }}\n\t<a href=\"{{itemlink}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-item\">{{! Designer note: \"wsite-menu-item\" required on the item link }}\n\t\t{{{itemtitle}}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n","site\/menu\/item":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">{{! Designer note: id required & \"wsite-menu-item-wrap\" required on the item wrapper }}\n\t<a href=\"{{itemlink}}\" data-membership-required=\"{{membership-required}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-item\">{{! Designer note: \"wsite-menu-item\" required on the item link }}\n\t\t{{{itemtitle}}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n"}
+			)
+		}
+		if (jQuery) {
+			jQuery(document).ready(function() { jQuery(initFlyouts); });
+		}else{
+			if (Prototype.Browser.IE) window.onload = initFlyouts;
+			else document.observe('dom:loaded', initFlyouts);
+		}
+	})(window._W && _W.jQuery)
 //-->
 </script>
-</head>
-<body class=' no-header-page  wsite-theme-light wsite-page-team'>
-<div id="container">
+		
+	</head>
+	<body class=" no-header-page  wsite-theme-light  wsite-page-team"><div id="container">
 	<table>
 		<tr>
-			<td rowspan="2"><span class='wsite-logo'><a href=''><img src='uploads/2/9/6/3/29635095/1402931311.png' style='margin-top:9px;margin-left:2px;' /></a></span></td>
+			<td rowspan="2"><span class="wsite-logo">
+
+	<a href="">
+		<img src="uploads/2/9/6/3/29635095/1402931311.png" style="margin-top:9px;margin-left:2px;" />
+	</a>
+
+</span></td>
 			<td class="menu-spacer"></td>
 		</tr>
 		<tr>
-			<td class="imod-menu"><ul class='wsite-menu-default'><li id='pg980282417777201365'><a href='index.html'>Home</a></li><li id='active'><a href='team.html'>Team</a></li><li id='pg368921713355802767'><a href='project-overview.html'>Project Overview</a></li><li id='pg740407115660312461'><a href='theoretical-framework.html'>Theoretical Framework</a></li><li id='pg105768449951290212'><a href='publications.html'>Publications</a></li><li id='pg420491920243632922'><a href='demo.html'>Demo</a></li></ul></td>
+			<td class="imod-menu"><ul class="wsite-menu-default"><li id="pg980282417777201365" class="wsite-menu-item-wrap">
+	<a href="index.html" data-membership-required="0" class="wsite-menu-item">
+		Home
+	</a>
+	
+</li>
+<li id="active" class="wsite-menu-item-wrap">
+	<a href="team.html" class="wsite-menu-item">
+		Team
+	</a>
+	
+</li>
+<li id="pg368921713355802767" class="wsite-menu-item-wrap">
+	<a href="project-overview.html" data-membership-required="0" class="wsite-menu-item">
+		Project Overview
+	</a>
+	
+</li>
+<li id="pg740407115660312461" class="wsite-menu-item-wrap">
+	<a href="theoretical-framework.html" data-membership-required="0" class="wsite-menu-item">
+		Theoretical Framework
+	</a>
+	
+</li>
+<li id="pg105768449951290212" class="wsite-menu-item-wrap">
+	<a href="publications.html" data-membership-required="0" class="wsite-menu-item">
+		Publications
+	</a>
+	
+</li>
+<li id="pg420491920243632922" class="wsite-menu-item-wrap">
+	<a href="demo.html" data-membership-required="0" class="wsite-menu-item">
+		Demo
+	</a>
+	
+</li>
+
+</ul>
+</td>
 		</tr>
 	</table>
 	
@@ -95,11 +153,13 @@ else document.observe('dom:loaded', initFlyouts);
 			<div id='wsite-content' class='wsite-elements wsite-not-footer'>
 <h2 class="wsite-content-title" style="text-align:left;">LEAD INVESTIGATORS<br /></h2>
 
-<div><div class="wsite-multicol"><div class='wsite-multicol-table-wrap' style='margin:0 -15px'>
-<table class='wsite-multicol-table'>
-<tbody class='wsite-multicol-tbody'>
-<tr class='wsite-multicol-tr'>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:25.643414495233%; padding:0 15px;">
+					
+						
 
 <div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:10px;text-align:left">
 <a>
@@ -108,76 +168,98 @@ else document.observe('dom:loaded', initFlyouts);
 <div style="display:block;font-size:90%"></div>
 </div></div>
 
-<div class="paragraph" style="text-align:left;">Odesma Dalrymple<br /> Assistant Professor <br />  (Engineering Education)<br /> Fulton School of Engineering<br /><span>Arizona State University</span><br /> Office: (480) 727-1883<br /> <a title="" style="" href="mailto:odesma.dalrymple@asu.edu">odesma.dalrymple@asu.edu</a> <br /></div>
+<div class="paragraph" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); ">Odesma Dalrymple<br /> Assistant Professor <br />  (Engineering Education)<br /> </span></span><span style=""><span style="">Shiley Marcos School of Engineering<br />University of San Diego<br />Office: (619) 260-7654<br /> </span></span></span><a href="mailto:odesma@sandiego.edu"><span style=""><span style=""><span style="">odesma@sandiego.edu</span></span></span></a></span></span></span></span></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
 
-<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+					
+				</td>				<td class="wsite-multicol-col" style="width:32.234492919711%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:left">
 <a>
 <img src="uploads/2/9/6/3/29635095/303964778.jpg" alt="Picture" style="width:100%;max-width:172px" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
 
-<div class="paragraph" style="text-align:left;">Srividya Bansal&nbsp;<br /> Assistant Professor <br /> (Software Engineering)<br /> Fulton School of Engineering<br /><span>Arizona State University</span><br /> Office: (480) 727-5107<br /> <a title="" style="" href="mailto:srividya.bansal@asu.edu">srividya.bansal@asu.edu</a><strong style=""><br /><span style=""></span><br /><span style=""></span></strong></div>
+<div class="paragraph" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); ">Srividya Bansal&nbsp;<br /> Assistant Professor <br /> (Software Engineering)<br /> Fulton School of Engineering<br /><span>Arizona State University</span><br /> Office: (480) 727-5107<br /> <a title="" style="" href="mailto:srividya.bansal@asu.edu">srividya.bansal@asu.edu</a><strong style=""><br /><span style=""></span><br /><span style=""></span></strong></span></span></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
 
-<div class="wsite-spacer" style="height:50px;"></div>
-
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+					
+				</td>				<td class="wsite-multicol-col" style="width:24.015096700282%; padding:0 15px;">
+					
+						
 
 <div class="wsite-spacer" style="height:50px;"></div>
 
-</td>
-</tr>
-</tbody>
-</table>
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:18.106995884774%; padding:0 15px;">
+					
+						
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
 </div></div></div>
 
 <div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
 <hr class="styled-hr" style="width:100%;"></hr>
 <div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
 
-<h2 class="wsite-content-title" style="text-align:left;">UCD EXPERT<br /></h2>
+<h2 class="wsite-content-title" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:700; color:rgb(51, 51, 51); '><span style="text-decoration:none; font-style:normal; font-weight:700; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:700; color:rgb(51, 51, 51); ">UCD EXPERT<br /></span></span></span></h2>
 
-<div><div class="wsite-multicol"><div class='wsite-multicol-table-wrap' style='margin:0 -15px'>
-<table class='wsite-multicol-table'>
-<tbody class='wsite-multicol-tbody'>
-<tr class='wsite-multicol-tr'>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:25%; padding:0 15px;">
+					
+						
 
-<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<div><div class="wsite-image wsite-image-border-border-width:0 " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
-<img src="uploads/2/9/6/3/29635095/887891729.png" alt="Picture" style="width:100%;max-width:1100px" />
+<img src="uploads/2/9/6/3/29635095/1428099161.png" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
 
 <div class="paragraph" style="text-align:left;">Ashraf Gaffar<br /><span>Assistant Professor<br /><span>(User-Centered Design</span>)<br /><span></span>Fulton School of Engineering<br /><span></span></span>Arizona State University<br />Office: (480) 727-5103<br /><a style="" title="" href="mailto:ashraf.gaffar@asu.edu">ashraf.gaffar@asu.edu</a><br /></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:25%; padding:0 15px;">
+					
+						
 
 <div class="wsite-spacer" style="height:50px;"></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:25%; padding:0 15px;">
+					
+						
 
 <div class="wsite-spacer" style="height:50px;"></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:25%; padding:0 15px;">
+					
+						
 
 <div class="wsite-spacer" style="height:50px;"></div>
 
-</td>
-</tr>
-</tbody>
-</table>
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
 </div></div></div>
 
 <div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
@@ -186,11 +268,13 @@ else document.observe('dom:loaded', initFlyouts);
 
 <h2 class="wsite-content-title" style="text-align:left;">REPOSITORY SPECIALIST<br /></h2>
 
-<div><div class="wsite-multicol"><div class='wsite-multicol-table-wrap' style='margin:0 -15px'>
-<table class='wsite-multicol-table'>
-<tbody class='wsite-multicol-tbody'>
-<tr class='wsite-multicol-tr'>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:25%; padding:0 15px;">
+					
+						
 
 <div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
@@ -201,25 +285,35 @@ else document.observe('dom:loaded', initFlyouts);
 
 <div class="paragraph" style="text-align:left;">Jeanette Muellerr-Alexander<br /><span>Librarian</span><br /><span>Arizona State University</span><br /></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:25%; padding:0 15px;">
+					
+						
 
 <div class="wsite-spacer" style="height:50px;"></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:25%; padding:0 15px;">
+					
+						
 
 <div class="wsite-spacer" style="height:50px;"></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:25%; padding:0 15px;">
+					
+						
 
 <div class="wsite-spacer" style="height:50px;"></div>
 
-</td>
-</tr>
-</tbody>
-</table>
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
 </div></div></div>
 
 <div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
@@ -228,11 +322,13 @@ else document.observe('dom:loaded', initFlyouts);
 
 <h2 class="wsite-content-title" style="text-align:left;">CURRENT STUDENTS<br /></h2>
 
-<div><div class="wsite-multicol"><div class='wsite-multicol-table-wrap' style='margin:0 -15px'>
-<table class='wsite-multicol-table'>
-<tbody class='wsite-multicol-tbody'>
-<tr class='wsite-multicol-tr'>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:25.656380664448%; padding:0 15px;">
+					
+						
 
 <div><div class="wsite-image wsite-image-border-border-width:0 " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:left">
 <a>
@@ -241,91 +337,79 @@ else document.observe('dom:loaded', initFlyouts);
 <div style="display:block;font-size:90%"></div>
 </div></div>
 
-<div class="paragraph" style="text-align:left;">Christian Murphy<br /></div>
+<div class="paragraph" style="text-align:left;">Christian Murphy<br /><a href="mailto:christian.murphy@asu.edu">christian.murphy@asu.edu</a><br /></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
 
-<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+					
+				</td>				<td class="wsite-multicol-col" style="width:24.128164943855%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-border-width:0 " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:left">
 <a>
-<img src="uploads/2/9/6/3/29635095/793402438.png" alt="Picture" style="width:100%;max-width:1100px" />
+<img src="uploads/2/9/6/3/29635095/1406645858.jpg" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
 
-<div class="paragraph" style="text-align:left;">David York<br /></div>
+<div class="paragraph" style="text-align:left;">Randi Taylor<br /><a href="mailto:Randi.M.Johnson@asu.edu">Randi.M.Johnson@asu.edu</a><br /></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
 
-<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+					
+				</td>				<td class="wsite-multicol-col" style="width:50.215454391698%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-border-width:0 " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:left">
 <a>
-<img src="uploads/2/9/6/3/29635095/457090036.png" alt="Picture" style="width:100%;max-width:1100px" />
+<img src="uploads/2/9/6/3/29635095/1428351595.png" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
 
-<div class="paragraph" style="text-align:left;">Randi Taylor<br /></div>
+<div class="paragraph" style="text-align:left;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Landon Breaux &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Rahul Parekh<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="mailto:rbparekh@asu.edu">rbparekh@asu.edu</a></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
 
-<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-<a>
-<img src="uploads/2/9/6/3/29635095/4193748.png" alt="Picture" style="width:100%;max-width:1100px" />
-</a>
-<div style="display:block;font-size:90%"></div>
-</div></div>
-
-<div class="paragraph" style="text-align:left;">Landon Breaux </div>
-
-</td>
-</tr>
-</tbody>
-</table>
+					
+				</td>			</tr>
+		</tbody>
+	</table>
 </div></div></div>
 
-<div><div class="wsite-multicol"><div class='wsite-multicol-table-wrap' style='margin:0 -15px'>
-<table class='wsite-multicol-table'>
-<tbody class='wsite-multicol-tbody'>
-<tr class='wsite-multicol-tr'>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:25.670103092784%; padding:0 15px;">
+					
+						
 
-<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
-<img src="uploads/2/9/6/3/29635095/487935710.jpg" alt="Picture" style="width:100%;max-width:364px" />
+<img src="uploads/2/9/6/3/29635095/487935710.jpg?242" alt="Picture" style="width:242;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
 
-<div class="paragraph" style="text-align:left;">Husna Gafoor<br /> <a style="" href="mailto:hgafoor@asu.edu">hgafoor@asu.edu</a></div>
+<div class="paragraph" style="text-align:left;"><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Husna Gafoor<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a title="" style="" href="mailto:hgafoor@asu.edu">hgafoor@asu.edu</a></span></span></span></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
 
-<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-<a>
-<img src="uploads/2/9/6/3/29635095/175209461.jpg" alt="Picture" style="width:100%;max-width:296px" />
-</a>
-<div style="display:block;font-size:90%"></div>
-</div></div>
+					
+				</td>				<td class="wsite-multicol-col" style="width:74.329896907216%; padding:0 15px;">
+					
+						
 
-<div class="paragraph" style="text-align:left;"> Kavitha Elamparithi<br /> <a style="" href="mailto:kelampar@asu.edu">kelampar@asu.edu</a></div>
+<span class='imgPusher' style='float:left;height:0px'></span><span style='display: table;z-index:10;width:auto;position:relative;float:left;max-width:100%;;clear:left;margin-top:6px;*margin-top:12px'><a><img src="uploads/2/9/6/3/29635095/1427783353.png" style="margin-top: 10px; margin-bottom: 10px; margin-left: 0px; margin-right: 10px; border-width:0; max-width:100%" alt="Picture" class="galleryImageBorder wsite-image" /></a><span style="display: table-caption; caption-side: bottom; font-size: 90%; margin-top: -10px; margin-bottom: 10px; text-align: center;" class="wsite-caption"></span></span>
+<div class="paragraph" style="text-align:left;display:block;"><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><br /><span id="selectionBoundary_1427159677534_8988003882113844" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br /><br /></span></span></span></div>
+<hr style="width:100%;clear:both;visibility:hidden;"></hr>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+<div class="paragraph" style="text-align:left;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Nishant Kumar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ayush Maheshwari<br />&nbsp; &nbsp; &nbsp; &nbsp;<a href="mailto:nkumar34@asu.edu"> nkumar34@asu.edu</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="mailto:akmahesh@asu.edu">akmahesh@asu.edu</a></div>
 
-<div class="wsite-spacer" style="height:50px;"></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
-
-<div class="wsite-spacer" style="height:50px;"></div>
-
-</td>
-</tr>
-</tbody>
-</table>
+					
+				</td>			</tr>
+		</tbody>
+	</table>
 </div></div></div>
 
 <div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
@@ -334,11 +418,13 @@ else document.observe('dom:loaded', initFlyouts);
 
 <h2 class="wsite-content-title" style="text-align:left;">FORMER STUDENTS<br /></h2>
 
-<div><div class="wsite-multicol"><div class='wsite-multicol-table-wrap' style='margin:0 -15px'>
-<table class='wsite-multicol-table'>
-<tbody class='wsite-multicol-tbody'>
-<tr class='wsite-multicol-tr'>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:25%; padding:0 15px;">
+					
+						
 
 <div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
@@ -349,8 +435,11 @@ else document.observe('dom:loaded', initFlyouts);
 
 <div class="paragraph" style="text-align:left;">Vrushali Menon<br /> <a style="" href="mailto:vmoghe@asu.edu">vmoghe@asu.edu</a></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:25%; padding:0 15px;">
+					
+						
 
 <div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
@@ -361,8 +450,11 @@ else document.observe('dom:loaded', initFlyouts);
 
 <div class="paragraph" style="text-align:left;"> Vishnu Menon<br /> <a style="" href="mailto:vishnu.menon@asu.edu">vishnu.menon@asu.edu</a></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:25%; padding:0 15px;">
+					
+						
 
 <div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
@@ -373,8 +465,11 @@ else document.observe('dom:loaded', initFlyouts);
 
 <div class="paragraph" style="text-align:left;"> Kateki Adhare<br /> <a style="" href="mailto:ketaki.andhare@asu.edu">ketaki.andhare@asu.edu</a></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:25%; padding:0 15px;">
+					
+						
 
 <div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
@@ -385,17 +480,20 @@ else document.observe('dom:loaded', initFlyouts);
 
 <div class="paragraph" style="text-align:left;"> Raymond Reichenberg<br /> <a style="" href="mailto:r.reichenberg@asu.edu">r.reichenberg@asu.edu</a></div>
 
-</td>
-</tr>
-</tbody>
-</table>
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
 </div></div></div>
 
-<div><div class="wsite-multicol"><div class='wsite-multicol-table-wrap' style='margin:0 -15px'>
-<table class='wsite-multicol-table'>
-<tbody class='wsite-multicol-tbody'>
-<tr class='wsite-multicol-tr'>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:20%; padding:0 15px;">
+					
+						
 
 <div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
@@ -406,25 +504,52 @@ else document.observe('dom:loaded', initFlyouts);
 
 <div class="paragraph" style="text-align:left;"> Saishruti Shetty<br /> <a style="" href="mailto:saishruti.shetty@asu.edu">saishruti.shetty@asu.edu</a></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:20%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:left">
+<a>
+<img src="uploads/2/9/6/3/29635095/175209461.jpg?150" alt="Picture" style="width:150;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph" style="text-align:left;"> Kavitha Elamparithi<br /> <a style="" href="mailto:kelampar@asu.edu">kelampar@asu.edu</a></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:25.876288659794%; padding:0 15px;">
+					
+						
+
+<span class='imgPusher' style='float:left;height:0px'></span><span style='display: table;z-index:10;width:220px;position:relative;float:left;max-width:100%;;clear:left;margin-top:0px;*margin-top:0px'><a><img src="uploads/2/9/6/3/29635095/793402438.png?202" style="margin-top: 10px; margin-bottom: 10px; margin-left: 0px; margin-right: 10px; border-width:1px;padding:3px; max-width:100%" alt="Picture" class="galleryImageBorder wsite-image" /></a><span style="display: table-caption; caption-side: bottom; font-size: 90%; margin-top: -10px; margin-bottom: 10px; text-align: center;" class="wsite-caption"></span></span>
+<div class="paragraph" style="text-align:left;display:block;"><br /><br /><br /><br /><br /><br /><br /><br /><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br /><span style="line-height: 1.5; background-color: initial;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; David York</span><br /></div>
+<hr style="width:100%;clear:both;visibility:hidden;"></hr>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:16.082474226804%; padding:0 15px;">
+					
+						
 
 <div class="wsite-spacer" style="height:50px;"></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:18.041237113402%; padding:0 15px;">
+					
+						
 
 <div class="wsite-spacer" style="height:50px;"></div>
 
-</td>
-<td class='wsite-multicol-col' style='width:25%;padding:0 15px'>
 
-<div class="wsite-spacer" style="height:50px;"></div>
-
-</td>
-</tr>
-</tbody>
-</table>
+					
+				</td>			</tr>
+		</tbody>
+	</table>
 </div></div></div></div>
 
 			<div class="clear"></div>
@@ -435,13 +560,17 @@ else document.observe('dom:loaded', initFlyouts);
 			This site provides updates on the progress of the IMOD system
 		</div>
 		<div class="imod-footer-nsf">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			<img class="imod-footer-nsf-logo" src="files/theme/NSF.gif">
-			<img class="imod-footer-nsf-logo" src="files/theme/arizona_state_university.jpg">
-			<img class="imod-footer-nsf-logo" src="files/theme/UCSD.png">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<img class="imod-footer-nsf-logo" src="files/theme/ASU_Logo1.png">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<img class="imod-footer-nsf-logo" src="files/theme/USD_Logo1.png">
 		</div>
 	</div>
 </div>
 <div style='padding: 20px; width:100%; text-align:center; display:none;'>Create a <a target="_top" href="http://www.weebly.com/">free web site</a> with <a target="_top" href="http://www.weebly.com/" title="free web site">Weebly</a></div>
 
-</body>
+		
+	</body>
 </html>

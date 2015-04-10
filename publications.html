@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Publications - IMODS</title>
+	<head>
+		<title>Publications - IMODS</title>
+
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-<link rel="stylesheet" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" type="text/css" /><link rel='stylesheet' type='text/css' href='http://cdn1.editmysite.com/editor/libraries/fancybox/fancybox.css?1234' />
-<link rel='stylesheet' type='text/css' href='files/main_style.css?1406562541' title='wsite-theme-css' />
+		
+		<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
+<link rel="stylesheet" type="text/css" href="http://cdn1.editmysite.com/editor/libraries/fancybox/fancybox.css?1234" />
+<link rel="stylesheet" type="text/css" href="files/main_style.css?1428688440" title="wsite-theme-css" />
+
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
@@ -37,45 +41,99 @@
 .wsite-headline {font-family:"Ubuntu" !important;}
 .wsite-headline-paragraph {font-family:"Ubuntu" !important;}
 .wsite-button-inner {font-family:"Ubuntu" !important;}
-.wsite-not-footer blockquote, #wsite-com-product-tab blockquote {font-family:"Ubuntu" !important;}
+.wsite-not-footer blockquote {font-family:"Ubuntu" !important;}
 .wsite-footer blockquote {}
 .blog-header h2 a {}
 #wsite-content h2.wsite-product-title {}
 .wsite-product .wsite-product-price a {font-family:"Ubuntu" !important;}
 </style>
 
-<script><!--
+
+		<script><!--
 var STATIC_BASE = '//cdn1.editmysite.com/';
 var STYLE_PREFIX = 'wsite';
 //-->
 </script>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
-<script src='http://cdn2.editmysite.com/js/site/main.js?buildTime=1234'></script>
-<script>_W.relinquish && _W.relinquish()</script>
-<script type='text/javascript'><!--
-var IS_ARCHIVE=1;
-(function(jQuery){
-function initFlyouts(){initPublishedFlyoutMenus([{"id":"980282417777201365","title":"Home","url":"index.html","target":""},{"id":"744542051446997102","title":"Team","url":"team.html","target":""},{"id":"368921713355802767","title":"Project Overview","url":"project-overview.html","target":""},{"id":"740407115660312461","title":"Theoretical Framework","url":"theoretical-framework.html","target":""},{"id":"105768449951290212","title":"Publications","url":"publications.html","target":""},{"id":"420491920243632922","title":"Demo","url":"demo.html","target":""}],"105768449951290212","<li><a href='#'>{{title}}<\/a><\/li>",'active',false)}
-if (jQuery) {
-if (jQuery.browser.msie && !window.flyoutMenusRefreshable) window.onload = initFlyouts;
-else jQuery(initFlyouts);
-}else{
-if (Prototype.Browser.IE) window.onload = initFlyouts;
-else document.observe('dom:loaded', initFlyouts);
-}
-})(window._W && _W.jQuery)
+
+<script src="http://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
+<script type="text/javascript"><!--
+	var IS_ARCHIVE = 1;
+	
+	(function(jQuery){
+		function initFlyouts(){
+			initPublishedFlyoutMenus(
+				[{"id":"980282417777201365","title":"Home","url":"index.html","target":""},{"id":"744542051446997102","title":"Team","url":"team.html","target":""},{"id":"368921713355802767","title":"Project Overview","url":"project-overview.html","target":""},{"id":"740407115660312461","title":"Theoretical Framework","url":"theoretical-framework.html","target":""},{"id":"105768449951290212","title":"Publications","url":"publications.html","target":""},{"id":"420491920243632922","title":"Demo","url":"demo.html","target":""}],
+				"105768449951290212",
+				"<li class=\"wsite-menu-item-wrap\"><a href=\"#\" data-membership-required=\"\" class=\"wsite-menu-item\">{{title}}<\/a><\/li>",
+				'active',
+				false,
+				{"site\/menu\/submenu-main":"<div class=\"wsite-menu-wrap\" style=\"display:none\">{{! Designer note: \"wsite-menu-wrap\" required on submenu wrapper }}\n\t<ul class=\"wsite-menu\">{{! Designer note: \"wsite-menu\" required on submenu element }}\n\t\t{{#children}}{{> site\/menu\/submenu-item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","site\/menu\/submenu-item":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-subitem-wrap{{#current_page}} wsite-nav-current{{\/current_page}}\">{{! Designer note: id required & \"wsite-menu-subitem-wrap\" required on the item wrap }}\n\t<a href=\"{{itemlink}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-subitem\">{{! Designer note: \"wsite-menu-subitem\" required on the item link }}\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{itemtitle}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n","site\/menu\/main":"<ul class=\"wsite-menu-default\">{{> site\/menu\/main-without-wrap}}<\/ul>{{! Designer note: \"wsite-menu-default\" required on menu element }}\n","site\/menu\/main-without-wrap":"{{#links}}{{!\n}}{{#current_page}}{{> site\/menu\/item-current}}{{\/current_page}}{{!\n}}{{^current_page}}{{> site\/menu\/item}}{{\/current_page}}{{!\n}}{{\/links}}\n","site\/menu\/item-current":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">{{! Designer note: id required & \"wsite-menu-item-wrap\" required on the item wrapper }}\n\t<a href=\"{{itemlink}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-item\">{{! Designer note: \"wsite-menu-item\" required on the item link }}\n\t\t{{{itemtitle}}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n","site\/menu\/item":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">{{! Designer note: id required & \"wsite-menu-item-wrap\" required on the item wrapper }}\n\t<a href=\"{{itemlink}}\" data-membership-required=\"{{membership-required}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-item\">{{! Designer note: \"wsite-menu-item\" required on the item link }}\n\t\t{{{itemtitle}}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n"}
+			)
+		}
+		if (jQuery) {
+			jQuery(document).ready(function() { jQuery(initFlyouts); });
+		}else{
+			if (Prototype.Browser.IE) window.onload = initFlyouts;
+			else document.observe('dom:loaded', initFlyouts);
+		}
+	})(window._W && _W.jQuery)
 //-->
 </script>
-</head>
-<body class=' no-header-page  wsite-theme-light wsite-page-publications'>
-<div id="container">
+		
+	</head>
+	<body class=" no-header-page  wsite-theme-light  wsite-page-publications"><div id="container">
 	<table>
 		<tr>
-			<td rowspan="2"><span class='wsite-logo'><a href=''><img src='uploads/2/9/6/3/29635095/1402931311.png' style='margin-top:9px;margin-left:2px;' /></a></span></td>
+			<td rowspan="2"><span class="wsite-logo">
+
+	<a href="">
+		<img src="uploads/2/9/6/3/29635095/1402931311.png" style="margin-top:9px;margin-left:2px;" />
+	</a>
+
+</span></td>
 			<td class="menu-spacer"></td>
 		</tr>
 		<tr>
-			<td class="imod-menu"><ul class='wsite-menu-default'><li id='pg980282417777201365'><a href='index.html'>Home</a></li><li id='pg744542051446997102'><a href='team.html'>Team</a></li><li id='pg368921713355802767'><a href='project-overview.html'>Project Overview</a></li><li id='pg740407115660312461'><a href='theoretical-framework.html'>Theoretical Framework</a></li><li id='active'><a href='publications.html'>Publications</a></li><li id='pg420491920243632922'><a href='demo.html'>Demo</a></li></ul></td>
+			<td class="imod-menu"><ul class="wsite-menu-default"><li id="pg980282417777201365" class="wsite-menu-item-wrap">
+	<a href="index.html" data-membership-required="0" class="wsite-menu-item">
+		Home
+	</a>
+	
+</li>
+<li id="pg744542051446997102" class="wsite-menu-item-wrap">
+	<a href="team.html" data-membership-required="0" class="wsite-menu-item">
+		Team
+	</a>
+	
+</li>
+<li id="pg368921713355802767" class="wsite-menu-item-wrap">
+	<a href="project-overview.html" data-membership-required="0" class="wsite-menu-item">
+		Project Overview
+	</a>
+	
+</li>
+<li id="pg740407115660312461" class="wsite-menu-item-wrap">
+	<a href="theoretical-framework.html" data-membership-required="0" class="wsite-menu-item">
+		Theoretical Framework
+	</a>
+	
+</li>
+<li id="active" class="wsite-menu-item-wrap">
+	<a href="publications.html" class="wsite-menu-item">
+		Publications
+	</a>
+	
+</li>
+<li id="pg420491920243632922" class="wsite-menu-item-wrap">
+	<a href="demo.html" data-membership-required="0" class="wsite-menu-item">
+		Demo
+	</a>
+	
+</li>
+
+</ul>
+</td>
 		</tr>
 	</table>
 	
@@ -95,7 +153,7 @@ else document.observe('dom:loaded', initFlyouts);
 			<div id='wsite-content' class='wsite-elements wsite-not-footer'>
 <h2 class="wsite-content-title" style="text-align:left;"><strong>Conference Papers:</strong></h2>
 
-<div class="paragraph" style="text-align:left;"><ol><li>Odesma Dalrymple, &nbsp;Srividya Bansal,&nbsp;Ashraf Gaffar, Randi Taylor. "<a href="uploads/2/9/6/3/29635095/fie-2014-final.pdf" target="_blank" title="">Instructional Module&nbsp;Development (IMOD) System: A User Study on Curriculum Design Process</a>". In&nbsp;<em>Proceedings of Frontiers in Education Conference (FIE), October</em><em>&nbsp;</em>2014, Madrid, Spain.<br /></li><li>Srividya Bansal,&nbsp;Odesma Dalrymple,&nbsp; Ashraf Gaffar, Randi Taylor. "<a href="uploads/2/9/6/3/29635095/asee-2014-final.pdf" target="_blank" title="">User Research for the Instructional Module&nbsp;Development (IMOD) System</a>". In&nbsp;<em>Proceedings of American Society for Engineering Education Conference (ASEE) -&nbsp;NSF Grantees session</em>, June 2014, Indianapolis, USA.<br /></li><li>Odesma Dalrymple, &nbsp;Srividya<strong style="">&nbsp;</strong>Bansal, Kavitha  Elamparithi, Husna Gafoor, Adam Lay, Saishruti&nbsp;Shetty. &nbsp;"<a href="uploads/2/9/6/3/29635095/imod-fie-2013.pdf" target="_blank" title="">Instructional  Module Development (IMOD) System: Building Faculty Expertise in  Outcome-based Course design</a>". In <em style="">Proceedings of Frontiers in Education Conference (FIE)</em>, October 2013, Oklahoma City, USA.</li><li>Srividya Bansal, Odesma Dalrymple, Vishnu Menon, Ketaki Andhare, Vrushali Moghe;<a href="https://f004f886-a-0c9971f9-s-sites.googlegroups.com/a/asu.edu/imod/pubs/IMoD-SEA2012_CameraReady.pdf?attachauth=ANoY7co_KJC5CxLiBq0cykJmAsV26IoyZ70Z7BAxk9dRrxygMrN6I4moFq9b1zk_UWDCmzethnIYasRjqT8ZFEIUsvifr0vCOxP8qcjYkchwWCuaffZnPjssljOWoSmtWrOAYRxiMsXqaTqpd8gBU2iWWJ0KV6VBFHIK3F2mRQVrM_CGoHl0T3mDYPYH1CTj0hpTeM5XKhEu-ny1AjMduvD8yfs0Qx8LR9XOUPbGblY7gd3LZqDRqwU%3D&amp;attredirects=0">&nbsp;IMOD: Semantic Web-based Instructional Module Development System</a><u>&nbsp;</u>in the&nbsp;<em>Proceedings of the 2012 IASTED Software Engineering and Applications Conference (SEA), Las Vegas, Nevada</em>.</li><li><font size="2"><span style="font-family: arial, sans-serif;">Ketaki Andhare, Odesma Dalrymple, Srividya Bansal;</span><em><span style="font-family: arial, sans-serif;">&nbsp;</span></em></font><a href="https://sites.google.com/a/asu.edu/imod/Learning%20Objectives%20Feature%20_%20Final.pdf?attredirects=0">Learning Objectives Feature for the Instructional Module Development System</a><font size="2"><font>&nbsp;in&nbsp;</font><span style="font-family: arial, sans-serif;">the&nbsp;<em>Proceedings of the 2012 ASEE PSW Section Conference Cal Poly - San Luis Obispo.</em></span></font></li></ol></div>
+<div class="paragraph" style="text-align:left;"><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "></span><span style=""><ol style=""><li style="">Srividya K Bansal, Ajay Bansal, Odesma Dalrymple. "<span id="selectionBoundary_1427484089511_19816974480636418" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span><a href="http://www.journaleet.org/index.php/jeet/article/view/56668">Outcome-based Education Model for Computer Science Education</a><span id="selectionBoundary_1427484089482_14604861265979707" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span>", Second Intl. Conference on Transformations in Engineering Education, January 2015, Bengaluru, India.<br /></li><li style="">Srividya K Bansal, Ajay Bansal, Odesma Dalrymple. "<span id="selectionBoundary_1427484501630_2208781244698912" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span><a href="uploads/2/9/6/3/29635095/imods-ictiee2015-final.pdf" target="_blank">Outcome-based Education Model for Computer Science Education</a><span id="selectionBoundary_1427484501611_560418865410611" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span>". In Journal of Engineering Education Transformations (JEET) Volume 28, Issue 2&amp;3, 2015, pp. 113-121.<br /></li><li style="">Odesma Dalrymple, &nbsp;Srividya Bansal,&nbsp;Ashraf Gaffar, Randi Taylor. "<a style="" href="uploads/2/9/6/3/29635095/fie-2014-final.pdf" target="_blank" title="">Instructional Module&nbsp;Development (IMOD) System: A User Study on Curriculum Design Process</a>". In&nbsp;<em style="">Proceedings of Frontiers in Education Conference (FIE), October</em><em style="">&nbsp;</em>2014, Madrid, Spain.<br /></li><li style="">Srividya Bansal,&nbsp;Odesma Dalrymple,&nbsp; Ashraf Gaffar, Randi Taylor. "<a style="" href="uploads/2/9/6/3/29635095/asee-2014-final.pdf" target="_blank" title="">User Research for the Instructional Module&nbsp;Development (IMOD) System</a>". In&nbsp;<em style="">Proceedings of American Society for Engineering Education Conference (ASEE) -&nbsp;NSF Grantees session</em>, June 2014, Indianapolis, USA.<br /></li><li style="">Odesma Dalrymple, &nbsp;Srividya<strong style="">&nbsp;</strong>Bansal, Kavitha  Elamparithi, Husna Gafoor, Adam Lay, Saishruti&nbsp;Shetty. &nbsp;"<a style="" href="uploads/2/9/6/3/29635095/imod-fie-2013.pdf" target="_blank" title="">Instructional  Module Development (IMOD) System: Building Faculty Expertise in  Outcome-based Course design</a>". In <em style="">Proceedings of Frontiers in Education Conference (FIE)</em>, October 2013, Oklahoma City, USA.</li><li style="">Srividya Bansal, Odesma Dalrymple, Vishnu Menon, Ketaki Andhare, Vrushali Moghe;<a style="" title="" href="https://f004f886-a-0c9971f9-s-sites.googlegroups.com/a/asu.edu/imod/pubs/IMoD-SEA2012_CameraReady.pdf?attachauth=ANoY7co_KJC5CxLiBq0cykJmAsV26IoyZ70Z7BAxk9dRrxygMrN6I4moFq9b1zk_UWDCmzethnIYasRjqT8ZFEIUsvifr0vCOxP8qcjYkchwWCuaffZnPjssljOWoSmtWrOAYRxiMsXqaTqpd8gBU2iWWJ0KV6VBFHIK3F2mRQVrM_CGoHl0T3mDYPYH1CTj0hpTeM5XKhEu-ny1AjMduvD8yfs0Qx8LR9XOUPbGblY7gd3LZqDRqwU%3D&amp;attredirects=0">&nbsp;IMOD: Semantic Web-based Instructional Module Development System</a><u style="">&nbsp;</u>in the&nbsp;<em style="">Proceedings of the 2012 IASTED Software Engineering and Applications Conference (SEA), Las Vegas, Nevada</em>.</li><li style=""><span style="">Ketaki Andhare, Odesma Dalrymple, Srividya Bansal;</span><em style=""><span style="">&nbsp;</span></em><a style="" title="" href="https://sites.google.com/a/asu.edu/imod/Learning%20Objectives%20Feature%20_%20Final.pdf?attredirects=0">Learning Objectives Feature for the Instructional Module Development System</a>&nbsp;in&nbsp;<span style="">the&nbsp;<em style="">Proceedings of the 2012 ASEE PSW Section Conference Cal Poly - San Luis Obispo.</em></span></li></ol></span><span style=""></span></span></div>
 
 <h2 class="wsite-content-title" style="text-align:left;">User Data Research</h2>
 
@@ -103,13 +161,20 @@ else document.observe('dom:loaded', initFlyouts);
 
 <h2 class="wsite-content-title" style="text-align:left;"><strong>Project Reports:</strong></h2>
 
-<div class="paragraph" style="text-align:left;"><ol><li><a title="" href="https://sites.google.com/a/asu.edu/imod/VrushaliMoghe-FinalReport.pdf?attredirects=0">User Interface for Web-based Instructional Module Development (IMOD) System</a>&nbsp;by Vrushali Moghe, Master's Applied Project, December, 2011.</li><li><a title="" href="https://sites.google.com/a/asu.edu/imod/VishnuMenon_ProjectReport.pdf?attredirects=0">Content Feature for Web-based Instructional Module Development (IMOD) System</a>&nbsp;by Vishnu Menon, Master's Applied Project, May 2012.</li><li><a title="" href="https://sites.google.com/a/asu.edu/imod/KetakiAndhare_FinalReport.pdf">Learning Objectives Feature for the Instructional Module Development (IMOD) System</a>&nbsp;by Ketaki Andhare, Master's Applied Project, July 2012.</li><li><a title="" href="https://sites.google.com/a/asu.edu/imod/SaiShetty_FinalReport.pdf?attredirects=0">Technology Analysis and Redesign of the Instructional Module Development (IMOD) System</a>&nbsp;by Sai Shetty, Master's Applied Project, May 2013.</li></ol></div>
+<div class="paragraph" style="text-align:left;"><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><ol style=""><li><a title="" href="https://sites.google.com/a/asu.edu/imod/VrushaliMoghe-FinalReport.pdf?attredirects=0">User Interface for Web-based Instructional Module Development (IMOD) System</a>&nbsp;by Vrushali Moghe, Master's Applied Project, December, 2011.</li><li><a title="" href="https://sites.google.com/a/asu.edu/imod/VishnuMenon_ProjectReport.pdf?attredirects=0">Content Feature for Web-based Instructional Module Development (IMOD) System</a>&nbsp;by Vishnu Menon, Master's Applied Project, May 2012.</li><li><a title="" href="https://sites.google.com/a/asu.edu/imod/KetakiAndhare_FinalReport.pdf">Learning Objectives Feature for the Instructional Module Development (IMOD) System</a>&nbsp;by Ketaki Andhare, Master's Applied Project, July 2012.</li><li><a title="" href="https://sites.google.com/a/asu.edu/imod/SaiShetty_FinalReport.pdf?attredirects=0">Technology Analysis and Redesign of the Instructional Module Development (IMOD) System</a>&nbsp;by Sai Shetty, Master's Applied Project, May 2013.</li><li style=""><font color="#3387a2"><a href="uploads/2/9/6/3/29635095/kavitha_imod_finalreport.pdf" target="_blank"><font color="#24678d"><span class="rangySelectionBoundary" style="line-height: 0; display: none;" id="selectionBoundary_1427149557107_8103962134419286">&#65279;</span><span class="rangySelectionBoundary" style="line-height: 0; display: none;" id="selectionBoundary_1427149557273_9166607076853596">&#65279;</span>Pedagogy Module of the Instructional Module Development System (IMODS</font>)</a><span class="rangySelectionBoundary" style="line-height: 0; display: none;" id="selectionBoundary_1427149557272_7418858405679274">&#65279;</span><span class="rangySelectionBoundary" style="line-height: 0; display: none;" id="selectionBoundary_1427149557106_8818633526502252">&#65279;</span></font> by Kavitha Elamparithi, Master's Applied Project, July 2014<br /><br /></li></ol></span><span style=""></span><span style=""></span></span></span></span></div>
 
-<h2 class="wsite-content-title" style="text-align:left;"><strong>Presentations:</strong></h2>
+<h2 class="wsite-content-title" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:700; color:rgb(51, 51, 51); '><span style="text-decoration:none; font-style:normal; font-weight:700; color:rgb(51, 51, 51); "><strong>Presentations:</strong></span></span></h2>
 
 <div class="paragraph" style="text-align:left;"><ol><li><strong>Learning Objective Feature of the IMOD system</strong>.&nbsp;Click&nbsp;<a title="" href="http://prezi.com/4nox4eqbp0bz/ketaki-defense-learning-objectives-feature/">here</a>&nbsp;to view&nbsp;presentation.<strong>&nbsp;<br /></strong></li><li><strong>User-Interface for Web-based Instructional Module Development (IMOD) System.&nbsp;</strong>Click&nbsp;<a title="" href="https://sites.google.com/a/asu.edu/imod/VrushaliAppliedProject-DefensePresentation.pptx?attredirects=0">here</a>&nbsp;to view presentation.</li></ol></div>
 
-<h2 class="wsite-content-title" style="text-align:left;">Conference Posters:<br /></h2>
+<h2 class="wsite-content-title" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:700; color:rgb(51, 51, 51); '><span style="text-decoration:none; font-style:normal; font-weight:700; color:rgb(51, 51, 51); ">Conference </span><span style="">and Symposium posters:<br /></span></span></h2>
+
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/2/9/6/3/29635095/9299236.jpg?701" alt="Picture" style="width:701;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
 
 <div><div class="wsite-image wsite-image-border-border-width:0 " style="padding-top:10px;padding-bottom:10px;margin-left:10px;margin-right:10px;text-align:center">
 <a>
@@ -156,13 +221,17 @@ else document.observe('dom:loaded', initFlyouts);
 			This site provides updates on the progress of the IMOD system
 		</div>
 		<div class="imod-footer-nsf">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			<img class="imod-footer-nsf-logo" src="files/theme/NSF.gif">
-			<img class="imod-footer-nsf-logo" src="files/theme/arizona_state_university.jpg">
-			<img class="imod-footer-nsf-logo" src="files/theme/UCSD.png">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<img class="imod-footer-nsf-logo" src="files/theme/ASU_Logo1.png">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<img class="imod-footer-nsf-logo" src="files/theme/USD_Logo1.png">
 		</div>
 	</div>
 </div>
 <div style='padding: 20px; width:100%; text-align:center; display:none;'>Create a <a target="_top" href="http://www.weebly.com/">free web site</a> with <a target="_top" href="http://www.weebly.com/" title="free web site">Weebly</a></div>
 
-</body>
+		
+	</body>
 </html>
