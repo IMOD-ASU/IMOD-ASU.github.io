@@ -7,9 +7,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
 		
-		<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
-<link rel="stylesheet" type="text/css" href="http://cdn1.editmysite.com/editor/libraries/fancybox/fancybox.css?1234" />
-<link rel="stylesheet" type="text/css" href="files/main_style.css?1432833212" title="wsite-theme-css" />
+		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
+<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/old/fancybox.css?1234" />
+<link rel="stylesheet" type="text/css" href="files/main_style.css?1496276255" title="wsite-theme-css" />
 
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
@@ -24,13 +24,13 @@
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 <style type='text/css'>
-.wsite-elements.wsite-not-footer div.paragraph, .wsite-elements.wsite-not-footer p, .wsite-elements.wsite-not-footer .product-block .product-title, .wsite-elements.wsite-not-footer .product-description, .wsite-elements.wsite-not-footer .wsite-form-field label, .wsite-elements.wsite-not-footer .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-family:"Ubuntu" !important;}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-family:"Ubuntu" !important;}
 #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
 .wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
-.wsite-elements.wsite-not-footer h2, .wsite-elements.wsite-not-footer .product-long .product-title, .wsite-elements.wsite-not-footer .product-large .product-title, .wsite-elements.wsite-not-footer .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-family:"Ubuntu" !important;}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-family:"Ubuntu" !important;}
 #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
 .wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
-#wsite-title {font-family:"Ubuntu" !important;font-size:44px !important;}
+#wsite-title {font-family:"Ubuntu" !important;}
 .wsite-menu-default a {font-family:"Ubuntu" !important;}
 .wsite-menu a {}
 .wsite-image div, .wsite-caption {font-family:"Ubuntu" !important;}
@@ -38,48 +38,65 @@
 .fancybox-title {font-family:"Ubuntu" !important;}
 .wslide-caption-text {}
 .wsite-phone {}
-.wsite-headline {font-family:"Ubuntu" !important;}
-.wsite-headline-paragraph {font-family:"Ubuntu" !important;}
+.wsite-headline,.wsite-header-section .wsite-content-title {font-family:"Ubuntu" !important;}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {font-family:"Ubuntu" !important;}
 .wsite-button-inner {font-family:"Ubuntu" !important;}
 .wsite-not-footer blockquote {font-family:"Ubuntu" !important;}
 .wsite-footer blockquote {}
 .blog-header h2 a {}
 #wsite-content h2.wsite-product-title {}
 .wsite-product .wsite-product-price a {font-family:"Ubuntu" !important;}
-</style>
+@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {font-size:44px !important;}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+}</style>
 
 
-		<script><!--
+		<script>
 var STATIC_BASE = '//cdn1.editmysite.com/';
+var ASSETS_BASE = '//cdn2.editmysite.com/';
 var STYLE_PREFIX = 'wsite';
-//-->
 </script>
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
 
+<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script>
 <script src="http://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
-<script type="text/javascript"><!--
+<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script><script> _W.themePlugins = [];</script><script type="text/javascript"> _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js"; </script><script type="text/javascript"><!--
 	var IS_ARCHIVE = 1;
 	
-	(function(jQuery){
-		function initFlyouts(){
-			initPublishedFlyoutMenus(
-				[{"id":"980282417777201365","title":"Home","url":"index.html","target":""},{"id":"744542051446997102","title":"Team","url":"team.html","target":""},{"id":"368921713355802767","title":"Project Overview","url":"project-overview.html","target":""},{"id":"740407115660312461","title":"Theoretical Framework","url":"theoretical-framework.html","target":""},{"id":"368364074590223282","title":"Videos","url":"videos.html","target":""},{"id":"105768449951290212","title":"Publications","url":"publications.html","target":""},{"id":"420491920243632922","title":"Demo","url":"demo.html","target":""}],
-				"105768449951290212",
-				"<li class=\"wsite-menu-item-wrap\"><a href=\"#\" data-membership-required=\"\" class=\"wsite-menu-item\">{{title}}<\/a><\/li>",
-				'active',
-				false,
-				{"site\/menu\/submenu-main":"<div class=\"wsite-menu-wrap\" style=\"display:none\">{{! Designer note: \"wsite-menu-wrap\" required on submenu wrapper }}\n\t<ul class=\"wsite-menu\">{{! Designer note: \"wsite-menu\" required on submenu element }}\n\t\t{{#children}}{{> site\/menu\/submenu-item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","site\/menu\/submenu-item":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-subitem-wrap{{#current_page}} wsite-nav-current{{\/current_page}}\">{{! Designer note: id required & \"wsite-menu-subitem-wrap\" required on the item wrap }}\n\t<a href=\"{{itemlink}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-subitem\">{{! Designer note: \"wsite-menu-subitem\" required on the item link }}\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{itemtitle}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n","site\/menu\/main":"<ul class=\"wsite-menu-default\">{{> site\/menu\/main-without-wrap}}<\/ul>{{! Designer note: \"wsite-menu-default\" required on menu element }}\n","site\/menu\/main-without-wrap":"{{#links}}{{!\n}}{{#current_page}}{{> site\/menu\/item-current}}{{\/current_page}}{{!\n}}{{^current_page}}{{> site\/menu\/item}}{{\/current_page}}{{!\n}}{{\/links}}\n","site\/menu\/item-current":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">{{! Designer note: id required & \"wsite-menu-item-wrap\" required on the item wrapper }}\n\t<a href=\"{{itemlink}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-item\">{{! Designer note: \"wsite-menu-item\" required on the item link }}\n\t\t{{{itemtitle}}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n","site\/menu\/item":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">{{! Designer note: id required & \"wsite-menu-item-wrap\" required on the item wrapper }}\n\t<a href=\"{{itemlink}}\" data-membership-required=\"{{membership-required}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-item\">{{! Designer note: \"wsite-menu-item\" required on the item link }}\n\t\t{{{itemtitle}}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n"}
-			)
-		}
-		if (jQuery) {
-			jQuery(document).ready(function() { jQuery(initFlyouts); });
-		}else{
-			if (Prototype.Browser.IE) window.onload = initFlyouts;
-			else document.observe('dom:loaded', initFlyouts);
-		}
-	})(window._W && _W.jQuery)
+	function initFlyouts(){
+		initPublishedFlyoutMenus(
+			[{"id":"980282417777201365","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"744542051446997102","title":"Team","url":"team.html","target":"","nav_menu":false,"nonclickable":false},{"id":"368921713355802767","title":"Project Overview","url":"project-overview.html","target":"","nav_menu":false,"nonclickable":false},{"id":"740407115660312461","title":"Theoretical Framework","url":"theoretical-framework.html","target":"","nav_menu":false,"nonclickable":false},{"id":"368364074590223282","title":"Videos","url":"videos.html","target":"","nav_menu":false,"nonclickable":false},{"id":"105768449951290212","title":"Publications","url":"publications.html","target":"","nav_menu":false,"nonclickable":false},{"id":"420491920243632922","title":"Demo","url":"demo.html","target":"","nav_menu":false,"nonclickable":false}],
+			"105768449951290212",
+			'',
+			'active',
+			false,
+			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+			{}
+		)
+	}
 //-->
 </script>
+		
 		
 	</head>
 	<body class=" no-header-page  wsite-theme-light  wsite-page-publications"><div id="container">
@@ -95,49 +112,70 @@ var STYLE_PREFIX = 'wsite';
 			<td class="menu-spacer"></td>
 		</tr>
 		<tr>
-			<td class="imod-menu"><ul class="wsite-menu-default"><li id="pg980282417777201365" class="wsite-menu-item-wrap">
-	<a href="index.html" data-membership-required="0" class="wsite-menu-item">
-		Home
-	</a>
-	
-</li>
-<li id="pg744542051446997102" class="wsite-menu-item-wrap">
-	<a href="team.html" data-membership-required="0" class="wsite-menu-item">
-		Team
-	</a>
-	
-</li>
-<li id="pg368921713355802767" class="wsite-menu-item-wrap">
-	<a href="project-overview.html" data-membership-required="0" class="wsite-menu-item">
-		Project Overview
-	</a>
-	
-</li>
-<li id="pg740407115660312461" class="wsite-menu-item-wrap">
-	<a href="theoretical-framework.html" data-membership-required="0" class="wsite-menu-item">
-		Theoretical Framework
-	</a>
-	
-</li>
-<li id="pg368364074590223282" class="wsite-menu-item-wrap">
-	<a href="videos.html" data-membership-required="0" class="wsite-menu-item">
-		Videos
-	</a>
-	
-</li>
-<li id="active" class="wsite-menu-item-wrap">
-	<a href="publications.html" class="wsite-menu-item">
-		Publications
-	</a>
-	
-</li>
-<li id="pg420491920243632922" class="wsite-menu-item-wrap">
-	<a href="demo.html" data-membership-required="0" class="wsite-menu-item">
-		Demo
-	</a>
-	
-</li>
-
+			<td class="imod-menu"><ul class="wsite-menu-default">
+		<li id="pg980282417777201365" class="wsite-menu-item-wrap">
+			<a
+						href="index.html"
+				class="wsite-menu-item"
+				>
+				Home
+			</a>
+			
+		</li>
+		<li id="pg744542051446997102" class="wsite-menu-item-wrap">
+			<a
+						href="team.html"
+				class="wsite-menu-item"
+				>
+				Team
+			</a>
+			
+		</li>
+		<li id="pg368921713355802767" class="wsite-menu-item-wrap">
+			<a
+						href="project-overview.html"
+				class="wsite-menu-item"
+				>
+				Project Overview
+			</a>
+			
+		</li>
+		<li id="pg740407115660312461" class="wsite-menu-item-wrap">
+			<a
+						href="theoretical-framework.html"
+				class="wsite-menu-item"
+				>
+				Theoretical Framework
+			</a>
+			
+		</li>
+		<li id="pg368364074590223282" class="wsite-menu-item-wrap">
+			<a
+						href="videos.html"
+				class="wsite-menu-item"
+				>
+				Videos
+			</a>
+			
+		</li>
+		<li id="active" class="wsite-menu-item-wrap">
+			<a
+						href="publications.html"
+				class="wsite-menu-item"
+				>
+				Publications
+			</a>
+			
+		</li>
+		<li id="pg420491920243632922" class="wsite-menu-item-wrap">
+			<a
+						href="demo.html"
+				class="wsite-menu-item"
+				>
+				Demo
+			</a>
+			
+		</li>
 </ul>
 </td>
 		</tr>
@@ -156,31 +194,62 @@ var STYLE_PREFIX = 'wsite';
 			</div>
 		</div>
 		<div id="content">
-			<div id='wsite-content' class='wsite-elements wsite-not-footer'>
-<h2 class="wsite-content-title" style="text-align:left;"><strong>Conference Papers:</strong></h2>
+			<div id="wsite-content" class="wsite-elements wsite-not-footer">
+	<h2 class="wsite-content-title" style="text-align:left;"><strong>Journal and Conference Publications:</strong><br /></h2>
 
-<div class="paragraph" style="text-align:left;"><span style="text-decoration: none; font-weight: 400; color: rgb(51, 51, 51);"><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "></span><ol><li style="font-size: 14px; font-family: Calibri, sans-serif; color: rgb(0, 0, 0);"><span style="font-style: normal; color: rgb(51, 51, 51);">Srividya K Bansal, Odesma Dalrymple, Ashraf 
-Gaffar. "</span><font style="font-style: normal;"><a href="uploads/2/9/6/3/29635095/asee-2015-final(nsfgranteessession).pdf" target="_blank"><span id="selectionBoundary_1432014193318_2092915498651564" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span><span id="selectionBoundary_1432014193496_37649158388376236" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span><span id="selectionBoundary_1432014194289_9385787746869028" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span>Design, Development, and Implementation of 
-the Instructional Module&nbsp;</a></font><span style="font-style: normal; font-family: Calibri;"><a href="uploads/2/9/6/3/29635095/asee-2015-final(nsfgranteessession).pdf" target="_blank">Development 
-System (IMODS)</a><span id="selectionBoundary_1432014194289_11974043515510857" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span><span id="selectionBoundary_1432014193496_6669698611367494" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span><span id="selectionBoundary_1432014193318_6410564540419728" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span></span><span style="color: rgb(51, 51, 51);">", in <em>Proceedings of American Society for Engineering Education Conference(ASEE)</em> - NSF Grantees session, June 2015, Seattle, USA</span></li><li><span style="font-style: normal;">Srividya K Bansal, Ajay Bansal, Odesma Dalrymple. "<span id="selectionBoundary_1427484089511_19816974480636418" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span><a href="uploads/2/9/6/3/29635095/imods-ictiee2015-final.pdf" title="" target="_blank">Outcome-based Education Model for Computer Science Education</a><span id="selectionBoundary_1427484089482_14604861265979707" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span>", &nbsp;in </span><em>Proceedings of&nbsp;</em><em>Second Intl. Conference on Transformations in Engineering Education</em>, January 2015, Bengaluru, India.<br /></li><li><span style="font-style: normal;">Srividya K Bansal, Ajay Bansal, Odesma Dalrymple. "<span id="selectionBoundary_1427484501630_2208781244698912" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span><a href="http://www.journaleet.org/index.php/jeet/article/view/56668" title="">Outcome-based Education Model for Computer Science Education</a><span id="selectionBoundary_1427484501611_560418865410611" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span>". In J</span><em>ournal of Engineering Education Transformations (JEET) Volume 28, Issue 2&amp;3</em>, 2015, pp. 113-121.<br /></li><li style="font-style: normal;">Odesma Dalrymple, &nbsp;Srividya Bansal,&nbsp;Ashraf Gaffar, Randi Taylor. "<a style="" href="uploads/2/9/6/3/29635095/fie-2014-final.pdf" target="_blank" title="">Instructional Module&nbsp;Development (IMOD) System: A User Study on Curriculum Design Process</a>". In&nbsp;<em style="">Proceedings of Frontiers in Education Conference (FIE), October</em><em style="">&nbsp;</em>2014, Madrid, Spain.<br /></li><li style="font-style: normal;">Srividya Bansal,&nbsp;Odesma Dalrymple,&nbsp; Ashraf Gaffar, Randi Taylor. "<a style="" href="uploads/2/9/6/3/29635095/asee-2014-final.pdf" target="_blank" title="">User Research for the Instructional Module&nbsp;Development (IMOD) System</a>". In&nbsp;<em style="">Proceedings of American Society for Engineering Education Conference (ASEE) -&nbsp;NSF Grantees session</em>, June 2014, Indianapolis, USA.<br /></li><li style="font-style: normal;">Odesma Dalrymple, &nbsp;Srividya<strong style="">&nbsp;</strong>Bansal, Kavitha  Elamparithi, Husna Gafoor, Adam Lay, Saishruti&nbsp;Shetty. &nbsp;"<a style="" href="uploads/2/9/6/3/29635095/imod-fie-2013.pdf" target="_blank" title="">Instructional  Module Development (IMOD) System: Building Faculty Expertise in  Outcome-based Course design</a>". In <em style="">Proceedings of Frontiers in Education Conference (FIE)</em>, October 2013, Oklahoma City, USA.</li><li style="font-style: normal;">Srividya Bansal, Odesma Dalrymple, Vishnu Menon, Ketaki Andhare, Vrushali Moghe;<a style="" title="" href="https://f004f886-a-0c9971f9-s-sites.googlegroups.com/a/asu.edu/imod/pubs/IMoD-SEA2012_CameraReady.pdf?attachauth=ANoY7co_KJC5CxLiBq0cykJmAsV26IoyZ70Z7BAxk9dRrxygMrN6I4moFq9b1zk_UWDCmzethnIYasRjqT8ZFEIUsvifr0vCOxP8qcjYkchwWCuaffZnPjssljOWoSmtWrOAYRxiMsXqaTqpd8gBU2iWWJ0KV6VBFHIK3F2mRQVrM_CGoHl0T3mDYPYH1CTj0hpTeM5XKhEu-ny1AjMduvD8yfs0Qx8LR9XOUPbGblY7gd3LZqDRqwU%3D&amp;attredirects=0">&nbsp;IMOD: Semantic Web-based Instructional Module Development System</a><u style="">&nbsp;</u>in the&nbsp;<em style="">Proceedings of the 2012 IASTED Software Engineering and Applications Conference (SEA), Las Vegas, Nevada</em>.</li><li style="font-style: normal;"><span style="">Ketaki Andhare, Odesma Dalrymple, Srividya Bansal;</span><em style=""><span style="">&nbsp;</span></em><a style="" title="" href="https://sites.google.com/a/asu.edu/imod/Learning%20Objectives%20Feature%20_%20Final.pdf?attredirects=0">Learning Objectives Feature for the Instructional Module Development System</a>&nbsp;in&nbsp;<span style="">the&nbsp;<em style="">Proceedings of the 2012 ASEE PSW Section Conference Cal Poly - San Luis Obispo.</em></span></li></ol><span style=""></span></span></div>
+<div class="paragraph" style="text-align:left;"><br /><ol><span></span><li>Srividya K Bansal, O. Dalrymple. "<a href="http://dl.acm.org/citation.cfm?doid=2899415.2925506" target="_blank">Instructional Module Development System (IMODS)</a>", in Proceedings of 21st ACM Annual Conference on Innovation and Technology in Computer Science Education (ITiCSE), July 2016, Peru.</li><li>Srividya K. Bansal, Odesma Dalrymple, Ashraf Gaffar. "<a href="http://www.enfusestem.org" target="_blank">Building Faculty Expertise in Outcomes-based Education</a>", at NSF Envisioning the Future of Undergraduate STEM Education: Research and&nbsp;Practice Symposium (EnFUSE), April 2016, Washington, DC, USA.&nbsp;&#8203;&#8203;<br /></li><li>Srividya K. Bansal, Odesma Dalrymple. &ldquo;<a href="http://ieeexplore.ieee.org/document/7439363/" target="_blank">IMOD-Ont: Towards an Ontology for Instructional Module Design</a>", at IEEE 10th International Conference on Semantic Computing (ICSC), pp. 354-357, February 2016, Laguna Hills, USA.<br /></li><li><span>Srividya K Bansal, Odesma Dalrymple. "&#65279;</span><a href="http://www.journaleet.org/index.php/jeet/index">Repository of Instructional and Assessment Techniques for OBE-based Instructional Module</a><a href="http://www.journaleet.org/index.php/jeet/index">&#65279; Development System</a><span>". in&nbsp;</span><em>J</em><em>ournal of Engineering Education Transformations (JEET),</em><span>&nbsp;29.3 (2016): pp. 93-100. &nbsp;</span><br /></li><li><span style="font-weight:400"><span></span></span><span>Srividya K Bansal, Odesma Dalrymple, and Ashraf Gaffar."<a href="uploads/2/9/6/3/29635095/fie2015-imodsfullpaper-final.pdf" target="_blank">Building Faculty Expertise in Outcome-based Education Curriculum Design</a>", in&nbsp;<em>Proceedings of IEEE Frontiers in Education Conference Conference (FIE)</em>, October 2015, El Paso, USA.</span><br /></li><li><span style="font-weight:400"><span>Srividya K Bansal, Odesma Dalrymple, Ashraf Gaffar. "</span><font><a href="uploads/2/9/6/3/29635095/asee-2015-final(nsfgranteessession).pdf" target="_blank"><span>&#65279;</span><span>&#65279;</span><span>&#65279;</span>Design, Development, and Implementation of the Instructional Module&nbsp;</a></font><span><a href="uploads/2/9/6/3/29635095/asee-2015-final(nsfgranteessession).pdf" target="_blank">Development System (IMODS)</a><span>&#65279;</span><span>&#65279;</span><span>&#65279;</span></span><span>", in <em>Proceedings of American Society for Engineering Education Conference(ASEE)</em> - NSF Grantees session, June 2015, Seattle, USA</span></span></li><li><span style="font-weight:400"><span>Srividya K Bansal, Ajay Bansal, Odesma Dalrymple. "<span>&#65279;</span><a href="uploads/2/9/6/3/29635095/imods-ictiee2015-final.pdf" target="_blank">Outcome-based Education Model for Computer Science Education</a><span>&#65279;</span>", &nbsp;in </span><em>Proceedings of&nbsp;</em><em>Second Intl. Conference on Transformations in Engineering Education</em>, January 2015, Bengaluru, India.</span></li><li><span style="font-weight:400"><span>Srividya K Bansal, Ajay Bansal, Odesma Dalrymple. "<span>&#65279;</span><a href="http://www.journaleet.org/index.php/jeet/article/view/56668">Outcome-based Education Model for Computer Science Education</a><span>&#65279;</span>". In J</span><em>ournal of Engineering Education Transformations (JEET) Volume 28, Issue 2&amp;3</em>, 2015, pp. 113-121.</span></li><li><span style="font-weight:400">Odesma Dalrymple, &nbsp;Srividya Bansal,&nbsp;Ashraf Gaffar, Randi Taylor. "<a href="uploads/2/9/6/3/29635095/fie-2014-final.pdf" target="_blank">Instructional Module&nbsp;Development (IMOD) System: A User Study on Curriculum Design Process</a>". In&nbsp;<em>Proceedings of Frontiers in Education Conference (FIE), October</em><em>&nbsp;</em>2014, Madrid, Spain.</span></li><li><span style="font-weight:400">Srividya Bansal,&nbsp;Odesma Dalrymple,&nbsp; Ashraf Gaffar, Randi Taylor. "<a href="uploads/2/9/6/3/29635095/asee-2014-final.pdf" target="_blank">User Research for the Instructional Module&nbsp;Development (IMOD) System</a>". In&nbsp;<em>Proceedings of American Society for Engineering Education Conference (ASEE) -&nbsp;NSF Grantees session</em>, June 2014, Indianapolis, USA.</span></li><li><span style="font-weight:400">Odesma Dalrymple, &nbsp;Srividya<strong>&nbsp;</strong>Bansal, Kavitha Elamparithi, Husna Gafoor, Adam Lay, Saishruti&nbsp;Shetty. &nbsp;"<a href="uploads/2/9/6/3/29635095/imod-fie-2013.pdf" target="_blank">Instructional Module Development (IMOD) System: Building Faculty Expertise in Outcome-based Course design</a>". In <em>Proceedings of Frontiers in Education Conference (FIE)</em>, October 2013, Oklahoma City, USA.</span></li><li><span style="font-weight:400">Srividya Bansal, Odesma Dalrymple, Vishnu Menon, Ketaki Andhare, Vrushali Moghe;<a href="https://f004f886-a-0c9971f9-s-sites.googlegroups.com/a/asu.edu/imod/pubs/IMoD-SEA2012_CameraReady.pdf?attachauth=ANoY7co_KJC5CxLiBq0cykJmAsV26IoyZ70Z7BAxk9dRrxygMrN6I4moFq9b1zk_UWDCmzethnIYasRjqT8ZFEIUsvifr0vCOxP8qcjYkchwWCuaffZnPjssljOWoSmtWrOAYRxiMsXqaTqpd8gBU2iWWJ0KV6VBFHIK3F2mRQVrM_CGoHl0T3mDYPYH1CTj0hpTeM5XKhEu-ny1AjMduvD8yfs0Qx8LR9XOUPbGblY7gd3LZqDRqwU%3D&amp;attredirects=0">&nbsp;IMOD: Semantic Web-based Instructional Module Development System</a><u>&nbsp;</u>in the&nbsp;<em>Proceedings of the 2012 IASTED Software Engineering and Applications Conference (SEA), Las Vegas, Nevada</em>.</span></li><li><span style="font-weight:400"><span>Ketaki Andhare, Odesma Dalrymple, Srividya Bansal;</span><em><span>&nbsp;</span></em><a href="https://sites.google.com/a/asu.edu/imod/Learning%20Objectives%20Feature%20_%20Final.pdf?attredirects=0">Learning Objectives Feature for the Instructional Module Development System</a>&nbsp;in&nbsp;<span>the&nbsp;<em>Proceedings of the 2012 ASEE PSW Section Conference Cal Poly - San Luis Obispo.</em></span></span></li></ol></div>
 
-<div class="paragraph"></div>
-
-<h2 class="wsite-content-title" style="text-align:left;">User Research Data</h2>
+<div class="paragraph" style="text-align:left;"><font size="4"><strong>User Research Data:</strong></font><br /></div>
 
 <div class="paragraph" style="text-align:left;"><ol><li><a href="uploads/2/9/6/3/29635095/userstudyparticipantsandsurveydata.pdf" target="_blank" title="">UserStudyParticipantsAndSurveyData</a>:&nbsp;This file provides details of the user study participants, their background, and survey data.<br /></li><li><a href="uploads/2/9/6/3/29635095/datacollectionandanalysis.pdf" target="_blank" title="">DataCollectionAndAnalysis</a>:&nbsp;This file provides details of data collection, user data snapshots, consolidated data, and derived artifacts.<br /></li></ol></div>
 
 <h2 class="wsite-content-title" style="text-align:left;"><strong>Project Reports:</strong></h2>
 
-<div class="paragraph" style="text-align:left;"><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(51, 51, 51); "><ol style=""><li><a title="" href="https://sites.google.com/a/asu.edu/imod/VrushaliMoghe-FinalReport.pdf?attredirects=0">User Interface for Web-based Instructional Module Development (IMOD) System</a>&nbsp;by Vrushali Moghe, Master's Applied Project, December, 2011.</li><li><a title="" href="https://sites.google.com/a/asu.edu/imod/VishnuMenon_ProjectReport.pdf?attredirects=0">Content Feature for Web-based Instructional Module Development (IMOD) System</a>&nbsp;by Vishnu Menon, Master's Applied Project, May 2012.</li><li><a title="" href="https://sites.google.com/a/asu.edu/imod/KetakiAndhare_FinalReport.pdf">Learning Objectives Feature for the Instructional Module Development (IMOD) System</a>&nbsp;by Ketaki Andhare, Master's Applied Project, July 2012.</li><li><a title="" href="https://sites.google.com/a/asu.edu/imod/SaiShetty_FinalReport.pdf?attredirects=0">Technology Analysis and Redesign of the Instructional Module Development (IMOD) System</a>&nbsp;by Sai Shetty, Master's Applied Project, May 2013.</li><li style=""><font color="#3387a2"><a href="uploads/2/9/6/3/29635095/kavitha_imod_finalreport.pdf" target="_blank" title=""><font color="#24678d"><span class="rangySelectionBoundary" style="line-height: 0; display: none;" id="selectionBoundary_1427149557107_8103962134419286">&#65279;</span><span class="rangySelectionBoundary" style="line-height: 0; display: none;" id="selectionBoundary_1427149557273_9166607076853596">&#65279;</span>Pedagogy Module of the Instructional Module Development System (IMODS</font>)</a><span class="rangySelectionBoundary" style="line-height: 0; display: none;" id="selectionBoundary_1427149557272_7418858405679274">&#65279;</span><span class="rangySelectionBoundary" style="line-height: 0; display: none;" id="selectionBoundary_1427149557106_8818633526502252">&#65279;</span></font> by Kavitha Elamparithi, Master's Applied Project, July 2014</li><li style=""><span style="line-height: 1.5; background-color: initial;"><span id="selectionBoundary_1432251450155_4081009067595005" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span><a href="uploads/2/9/6/3/29635095/husna-appliedproject-finalreport.pdf" target="_blank">Assessment  Module of the Instructional Module Development System (IMODS)</a><span id="selectionBoundary_1432251450151_16717868414707482" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span>&nbsp;</span><span style="line-height: 1.5; background-color: initial;">by Husna Gafoor, Master's Applied Project, May  2015</span></li></ol></span></span></span></span><span style=""><span style=""><span style=""><span style=""></span><span style=""></span><span style=""></span></span></span></span></div>
+<div class="paragraph" style="text-align:left;"><ol><li><span style="color:rgb(51, 51, 51); font-weight:400"><span style="color:rgb(51, 51, 51); font-weight:400"><span style="color:rgb(51, 51, 51); font-weight:400"><span style="color:rgb(51, 51, 51); font-weight:400"><a href="https://sites.google.com/a/asu.edu/imod/VrushaliMoghe-FinalReport.pdf?attredirects=0">User Interface for Web-based Instructional Module Development (IMOD) System</a>&nbsp;by Vrushali Moghe, Master's Applied Project, December, 2011.</span></span></span></span></li><li><span style="color:rgb(51, 51, 51); font-weight:400"><span style="color:rgb(51, 51, 51); font-weight:400"><span style="color:rgb(51, 51, 51); font-weight:400"><span style="color:rgb(51, 51, 51); font-weight:400"><a href="https://sites.google.com/a/asu.edu/imod/VishnuMenon_ProjectReport.pdf?attredirects=0">Content Feature for Web-based Instructional Module Development (IMOD) System</a>&nbsp;by Vishnu Menon, Master's Applied Project, May 2012.</span></span></span></span></li><li><span style="color:rgb(51, 51, 51); font-weight:400"><span style="color:rgb(51, 51, 51); font-weight:400"><span style="color:rgb(51, 51, 51); font-weight:400"><span style="color:rgb(51, 51, 51); font-weight:400"><a href="https://sites.google.com/a/asu.edu/imod/KetakiAndhare_FinalReport.pdf">Learning Objectives Feature for the Instructional Module Development (IMOD) System</a>&nbsp;by Ketaki Andhare, Master's Applied Project, July 2012.</span></span></span></span></li><li><span style="color:rgb(51, 51, 51); font-weight:400"><span style="color:rgb(51, 51, 51); font-weight:400"><span style="color:rgb(51, 51, 51); font-weight:400"><span style="color:rgb(51, 51, 51); font-weight:400"><a href="https://sites.google.com/a/asu.edu/imod/SaiShetty_FinalReport.pdf?attredirects=0">Technology Analysis and Redesign of the Instructional Module Development (IMOD) System</a>&nbsp;by Sai Shetty, Master's Applied Project, May 2013.</span></span></span></span></li><li><span style="color:rgb(51, 51, 51); font-weight:400"><span style="color:rgb(51, 51, 51); font-weight:400"><span style="color:rgb(51, 51, 51); font-weight:400"><span style="color:rgb(51, 51, 51); font-weight:400"><font color="#3387a2"><a href="uploads/2/9/6/3/29635095/kavitha_imod_finalreport.pdf" target="_blank"><font color="#24678d"><span>&#65279;</span><span>&#65279;</span>Pedagogy Module of the Instructional Module Development System (IMODS</font>)</a><span>&#65279;</span><span>&#65279;</span></font> by Kavitha Elamparithi, Master's Applied Project, July 2014</span></span></span></span></li><li><span style="color:rgb(51, 51, 51); font-weight:400"><span style="color:rgb(51, 51, 51); font-weight:400"><span style="color:rgb(51, 51, 51); font-weight:400"><span style="color:rgb(51, 51, 51); font-weight:400"><span><span>&#65279;</span><a href="uploads/2/9/6/3/29635095/husna-appliedproject-finalreport.pdf" target="_blank">Assessment Module of the Instructional Module Development System (IMODS)</a><span>&#65279;</span>&nbsp;</span><span>by Husna Gafoor, Master's Applied Project, May 2015</span></span></span></span></span></li><li><a href="uploads/2/9/6/3/29635095/appliedprojectreport-sohan.pdf" target="_blank">Design and Development of Instructional Module Development System (IMODS) for Mobile Devices</a>&nbsp;by Sohan Madhav Bangaru, Master's Applied Project, May 2017</li></ol></div>
 
 <h2 class="wsite-content-title" style="text-align:left;"><span style="text-decoration:none; font-style:normal; font-weight:700; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:700; color:rgb(51, 51, 51); "><strong>Presentations:</strong></span></span></h2>
 
 <div class="paragraph" style="text-align:left;"><ol style=""><li><strong>IMODS-Overview presentation.&nbsp;</strong>Click&nbsp;<a title="" href="uploads/2/9/6/3/29635095/imodsoverview-presentation.pptx">here</a>&nbsp;to view&nbsp;presentation.</li><li style=""><strong style="">Learning Objective Feature of the IMOD system</strong>.&nbsp;Click&nbsp;<a title="" href="http://prezi.com/4nox4eqbp0bz/ketaki-defense-learning-objectives-feature/" style="">here</a>&nbsp;to view&nbsp;presentation.<strong style="">&nbsp;<br /></strong></li><li style=""><strong style="">User-Interface for Web-based Instructional Module Development (IMOD) System.&nbsp;</strong>Click&nbsp;<a title="" href="https://sites.google.com/a/asu.edu/imod/VrushaliAppliedProject-DefensePresentation.pptx?attredirects=0" style="">here</a>&nbsp;to view presentation.</li></ol></div>
 
-<h2 class="wsite-content-title" style="text-align:left;"><span style="text-decoration:none; font-style:normal; font-weight:700; color:rgb(51, 51, 51); "><span style="text-decoration:none; font-style:normal; font-weight:700; color:rgb(51, 51, 51); ">Conference </span><span style="">and Symposium posters:<br /></span></span></h2>
+<h2 class="wsite-content-title" style="text-align:left;"><span style="font-weight:700"><span style="font-weight:700">Conference </span><span>and Symposium posters:</span></span></h2>
 
-<h2 class="wsite-content-title" style="text-align:center;"><font size="3">FURI 2015</font><span id="selectionBoundary_1432253883516_49004695611074567" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span><span id="selectionBoundary_1432253873616_424243938177824" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span></h2>
+<h2 class="wsite-content-title" style="text-align:center;"><br />&#8203;Innovation Showcase - Spring 2017</h2>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/2/9/6/3/29635095/imods-mobileposter_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<h2 class="wsite-content-title" style="text-align:center;"><br />&#8203;FURI - Spring 2017</h2>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/2/9/6/3/29635095/gouletpreston-poster_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<h2 class="wsite-content-title" style="text-align:center;"><br />Innovation Showcase - Fall 2016<br /></h2>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/2/9/6/3/29635095/abir-innovationshowcase-dec2016_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<h2 class="wsite-content-title" style="text-align:center;"><font size="3"><br />&#8203;ASEE 2015</font></h2>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/2/9/6/3/29635095/2871188.jpg" alt="Picture" style="width:879;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<h2 class="wsite-content-title" style="text-align:center;"><font size="3">FURI - Spring 2015</font><span>&#65279;</span><span>&#65279;</span></h2>
 
 <div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
@@ -189,7 +258,7 @@ System (IMODS)</a><span id="selectionBoundary_1432014194289_11974043515510857" c
 <div style="display:block;font-size:90%"></div>
 </div></div>
 
-<div class="paragraph" style="text-align:center;"><strong><font size="3">FURI 2014</font></strong></div>
+<div class="paragraph" style="text-align:center;"><strong><font size="3">FURI - Fall 2014</font></strong></div>
 
 <div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
@@ -217,7 +286,7 @@ System (IMODS)</a><span id="selectionBoundary_1432014194289_11974043515510857" c
 <div style="display:block;font-size:90%"></div>
 </div></div>
 
-<h2 class="wsite-content-title" style="text-align:left;"><strong>Innovation Showcase Posters:</strong></h2>
+<h2 class="wsite-content-title" style="text-align:left;"><strong>Innovation Showcase Posters - 2014:</strong></h2>
 
 <div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
@@ -238,7 +307,8 @@ System (IMODS)</a><span id="selectionBoundary_1432014194289_11974043515510857" c
 <img src="uploads/2/9/6/3/29635095/202807537.jpg" alt="Picture" style="width:100%;max-width:1100px" />
 </a>
 <div style="display:block;font-size:90%"></div>
-</div></div></div>
+</div></div>
+</div>
 
 			<div class="clear"></div>
 		</div>
